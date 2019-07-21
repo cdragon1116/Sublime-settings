@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://raw.githubusercontent.com/HBLong/channel_v3_daily/master/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Agila Theme",
+		"AutoFileName",
+		"ChineseLoremIpsum",
+		"ColorPicker",
+		"Emmet",
+		"FakeImg.pl Image Placeholder Snippet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"LiveReload",
+		"LoremIpsum",
+		"Material Theme",
+		"Package Control",
+		"RuboCop",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeREPL"
+	]
+}
