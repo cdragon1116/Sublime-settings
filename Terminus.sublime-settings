@@ -1,0 +1,13 @@
+{
+	"256color": true,
+	"parameters":
+	[
+	],
+	"terminal": "iTerm.sh",
+	"theme": "one-dark",
+	"view_settings":
+	{
+		"font_size": 14,
+		"font_face": "SauceCodePro Nerd Font",
+	}
+}

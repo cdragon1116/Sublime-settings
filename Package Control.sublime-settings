@@ -23,8 +23,10 @@
 		"Material Theme",
 		"Package Control",
 		"RuboCop",
+		"Ruby Completions",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeREPL"
+		"SublimeREPL",
+		"Terminus"
 	]
 }
