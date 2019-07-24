@@ -9,6 +9,7 @@
 	],
 	"installed_packages":
 	[
+		"10% Too Dull for My Tastes Color Scheme",
 		"Agila Theme",
 		"AutoFileName",
 		"ChineseLoremIpsum",
@@ -16,16 +17,16 @@
 		"Emmet",
 		"FakeImg.pl Image Placeholder Snippet",
 		"Git",
-		"HTML-CSS-JS Prettify",
 		"HTMLBeautify",
 		"LiveReload",
 		"LoremIpsum",
 		"Material Theme",
 		"Package Control",
-		"RuboCop",
+		"ProductiveSnippetsRuby",
 		"Ruby Completions",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"SublimeLinter",
 		"SublimeREPL",
 		"Terminus"
 	]
