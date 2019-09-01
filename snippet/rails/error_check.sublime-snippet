@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<% if ${1:var}.errors.any? %>
+  <ul>
+  <% ${1:var}.errors.full_messages.each do |message| %>
+  <li><%= message %></li>
+  <% end %>
+  </ul>
+<% end %>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rec</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

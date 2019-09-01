@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group row">
+    <%= form.label :${1:name}, '${1:name}' ,:class => 'col-form-label col-xl-2'%>
+    <%= form.text_field :${1:name}, :class => 'form-control col-xl-10'%>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rfg</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
