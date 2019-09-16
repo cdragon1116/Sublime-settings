@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+let(:${1:cart}) { ${2:Cart}.new }
+describe "${3:this}" do 
+  it "${4:this}" do 
+    ${5:
+    # expect().to be 200
+    # expect().to be_a Product
+    # expect().not_to be_valid 200
+    # expect().to eq Product}
+  end
+end
+--format documentation
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rspec</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

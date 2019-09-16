@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<img src="https://picsum.photos/300/200?random=${1:this}" alt="圖片說明"/>
+<img src="https://picsum.photos/${1:300}/${2:200}?random=${3:1}" alt="圖片說明"/>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>fk</tabTrigger>

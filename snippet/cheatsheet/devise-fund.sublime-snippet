@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+rails generate devise:install
+rails generate devise User
+rails generate devise:views:bootstrap_templates
+before_action :authenticate_user!
+before_action :authenticate_user!
+user_signed_in?
+current_user
+user_session
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rdsnip</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

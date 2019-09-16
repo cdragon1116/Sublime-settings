@@ -28,6 +28,7 @@
 		"MarkdownLight",
 		"Material Theme",
 		"Package Control",
+		"Pretty JSON",
 		"ProductiveSnippetsRuby",
 		"Rails Completions",
 		"Ruby Completions",
@@ -40,6 +41,8 @@
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeREPL",
-		"Terminus"
+		"Surround",
+		"Terminus",
+		"Vintage Surround"
 	]
 }

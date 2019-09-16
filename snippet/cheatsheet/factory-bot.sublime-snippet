@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+FactoryBot.define do
+  factory :product do
+    name { Faker::Name.name }
+    price { Faker::Number.between(from: 10, to: 200) }
+    description { Faker::Lorem.sentence(word_count: 2) }
+    is_available { false }
+  end
+
+  trait :online do 
+    is_available { true }
+  end
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>facbot</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

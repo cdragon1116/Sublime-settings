@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<%= link_to '${1:name}', ${2:path}, class:'${3}'%>${4}
+<%= link_to '${1:name}', ${2:path}, class:'${3}' %>${4}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>rlt</tabTrigger>

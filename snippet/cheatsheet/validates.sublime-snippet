@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+validates :name, presence: true
+validates :age, numericality: { greater_than: 40}
+validates :age, inclusion: { in: 0..9 }
+validates :first_name, length: { maximum: 30 }
+validates :username, exclusion: { in: %w(admin superuser) }
+validates :email, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i, on: :create }
+
+default_scope -> { order('id DESC') }
+scope :recent_days, -> (n)  { where(["created_at > ? ", Time.now - n.days]) }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rval</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

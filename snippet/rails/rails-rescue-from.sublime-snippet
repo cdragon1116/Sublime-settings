@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
+
+private
+def record_not_found
+render :file => "#{Rails.root}/public/404.html", 
+       :status => 404, 
+       :layout => false 
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rrescue</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

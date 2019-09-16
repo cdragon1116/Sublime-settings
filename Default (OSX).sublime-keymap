@@ -1,7 +1,49 @@
 [
-      { "keys": ["alt+`"], "command": "toggle_terminus_panel" 
-      , "args": {
-            "cwd": "${file_path:${folder}}"
-        }
-    }
+  {
+    "args": {
+      "cwd": "${file_path:${folder}}"
+    },
+    "command": "toggle_terminus_panel",
+    "keys": [
+      "alt+`"
+    ]
+  },
+  {
+    "args": {
+      "browser": "Chrome",
+      "paths": [],
+      "type": "testing"
+    },
+    "command": "side_bar_open_in_browser",
+    "keys": [
+      "f12"
+    ]
+  },
+  {
+    "args": {
+      "browser": "Chrome",
+      "paths": [],
+      "type": "production"
+    },
+    "command": "side_bar_open_in_browser",
+    "keys": [
+      "alt+f12"
+    ]
+  },
+  {
+    "command": "side_bar_rename",
+    "keys": [
+      "f2"
+    ]
+  },
+  {
+    "args": {
+      "paths": []
+    },
+    "command": "reveal_in_side_bar",
+    "id": "side-bar-find-project-folder",
+    "keys": [
+      "f1"
+    ]
+  }
 ]

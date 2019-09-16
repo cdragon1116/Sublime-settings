@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+has_one :account
+belongs_to :user
+has_many :orders
+has_many :orders, dependent: :destroy, counter_cache: true
+has_many :patients, through: :appointments
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rass</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

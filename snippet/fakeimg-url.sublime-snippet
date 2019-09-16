@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-https://picsum.photos/300/200?random=${1}
+https://picsum.photos/${1:300}/${1:200}?random=${3}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>fkl</tabTrigger>

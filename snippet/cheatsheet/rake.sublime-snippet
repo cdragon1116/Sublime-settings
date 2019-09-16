@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+namespace :${1:this} do
+  desc '${2:this}'
+  task :${3:this} => :environment do
+    ${4:Candidate.all.each do |c|
+      Candidate.reset_counters(c.id, :vote_logs)
+    end}
+  end
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rake</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

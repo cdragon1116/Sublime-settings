@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+desc "mail sender"
+task :sendmail do
+  puts "從資料庫取得名單..."
+  sleep 3
+  puts "信件發送中..."
+  sleep 3
+  puts "完成！"
+end
+
+# default預設任務
+task :default => :sendmail
+
+# 任務相關性
+task :goto_toliet do
+  puts "上廁所"
+end
+task :open_the_door => :goto_toliet do
+  puts "開⾨門"
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rake</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

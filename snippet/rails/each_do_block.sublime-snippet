@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-<% ${1:var}.each do |candidate| %>
-    <div class="row">
-        ${2:code}
-    </div>
+<% ${1:var}.each do |${2:var}| %>
+  <div class="row">
+      ${3:code}
+  </div>
 <% end%>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

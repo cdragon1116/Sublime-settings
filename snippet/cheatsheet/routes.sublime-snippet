@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+root 'pages#index'                          
+get '/users', to: redirect('/accounts')     
+get '/users', to: redirect('google.com.tw')
+
+resources :users do 
+    member do 
+      get :play
+    end
+
+    collection do 
+      get :play
+    end
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rroutes</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
